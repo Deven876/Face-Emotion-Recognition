@@ -11,10 +11,10 @@ from streamlit_webrtc import webrtc_streamer, VideoProcessorBase
 # load model
 emotion_dict = ["Angry","Disgust","Fear","Happy","Sad","Surprise","Neutral"]
 
-classifier =load_model('FER_model.h5')
+classifier =load_model('https://github.com/Deven876/Face-Emotion-Recognition/blob/main/FER_model.h5')
 
 # load weights into new model
-classifier.load_weights("FER_model.h5")
+classifier.load_weights("https://github.com/Deven876/Face-Emotion-Recognition/blob/main/FER_model.h5")
 
 
 #load face
