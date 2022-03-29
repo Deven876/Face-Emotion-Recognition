@@ -68,9 +68,20 @@ Hyper-parameter that were used are epochs = 100,batch_size = 64 and learning_rat
 2. Pre Trained Model gave good accuracy for emotion around 80%. Can not say the same for other features.(As you can see, the image we used shows scared emotion where as emotion predicted was surprise. . Out of 5, 4 results were good (emotion wise) only 1 got misclassified)
 3. Our Model can succesfully detect face and predict emotion on live video feed as well as on an image.
 
+
 To access weblink please click on this link(streamlit share) :https://share.streamlit.io/deven876/face-emotion-recognition/main/app.py
+
 If unable to access, a video named Sample.mp4 has been upload in repository. Please feel free to have a look.
+
 https://github.com/Deven876/Face-Emotion-Recognition/blob/main/sample%20video.mp4
+
+
+
+
+
+
+
+
 
 
 
@@ -80,7 +91,13 @@ https://github.com/Deven876/Face-Emotion-Recognition/blob/main/sample%20video.mp
 ![image](https://user-images.githubusercontent.com/92842078/160650794-4f9b870a-b240-46f8-abdf-074db0e81741.png)
 
 
+
+
+
+
 ![image](https://user-images.githubusercontent.com/92842078/160650902-a0642277-58d8-4587-87b2-beb828535e18.png)
+
+
 
 
 **Live face and emotion detection can be easily done with the help of our model.**
