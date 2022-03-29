@@ -22,7 +22,8 @@ which can be analysed using deep learning algorithms. Deep learning backed syste
 the surveillance issue, but it also removes the human bias from the system, and all information is no
 longer in the teacher’s brain rather translated in numbers that can be analysed and tracked.
 
-!(https://github.com/Deven876/Face-Emotion-Recognition/blob/main/fer.jpeg)
+![image](https://user-images.githubusercontent.com/92842078/160650577-23052d5a-778d-453d-8ed1-8f63d263b19f.png)
+
 
 ## 1. Problem Statement
 
@@ -68,9 +69,11 @@ https://github.com/Deven876/Face-Emotion-Recognition/blob/main/cnn.png
 To access weblink please click on this link(streamlit share) :https://share.streamlit.io/deven876/face-emotion-recognition/main/app.py
 If unable to access, a video named Sample.mp4 has been upload in repository. Please feel free to have a look.
 
-https://github.com/Deven876/Face-Emotion-Recognition/blob/main/Screenshot%20(230).png
+![image](https://user-images.githubusercontent.com/92842078/160650794-4f9b870a-b240-46f8-abdf-074db0e81741.png)
 
-https://github.com/Deven876/Face-Emotion-Recognition/blob/main/Screenshot%20(236).png
+
+![image](https://user-images.githubusercontent.com/92842078/160650902-a0642277-58d8-4587-87b2-beb828535e18.png)
+
 
 **Live face and emotion detection can be easily done with the help of our model.**
 
