@@ -50,7 +50,8 @@ The Haar Casscade detects face and those faces are then cropped and convert to g
 
 Hyper-parameter that were used are epochs = 100,batch_size = 64 and learning_rate = 0.001
 
-https://github.com/Deven876/Face-Emotion-Recognition/blob/main/cnn.png
+![image](https://user-images.githubusercontent.com/92842078/160651359-5f451012-28e5-4921-a87f-3bc6b374f8ad.png)
+
 
 ## 2.3 Evaluation Metrics
 
