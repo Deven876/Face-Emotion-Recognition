@@ -19,7 +19,7 @@ classifier.load_weights("https://github.com/Deven876/Face-Emotion-Recognition/bl
 
 #load face
 try:
-    face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+    face_cascade = cv2.CascadeClassifier('https://github.com/Deven876/Face-Emotion-Recognition/blob/main/haarcascade_frontalface_default.xml')
 except Exception:
     st.write("Error loading cascade classifiers")
 
