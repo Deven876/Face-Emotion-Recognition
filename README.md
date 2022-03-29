@@ -65,7 +65,7 @@ Hyper-parameter that were used are epochs = 100,batch_size = 64 and learning_rat
 
 # 3. Conclusions 
 1. We trained the neural network and we achieved the highest validation accuracy of 61%.
-2. Pre Trained Model gave good accuracy for emotion around 80%. Can not say the same for other features.(As you can see, the image we used shows scared emotion where as emotion predicted was surprise. . Out of 5, 4 results were good (emotion wise) only 1 got misclassified)
+2. Pre Trained Model gave good accuracy for emotion around 80%. Can not say the same for other features.(As you can see, the image we used shows scared emotion where as emotion predicted was surprise. . Out of 5, 4 results were good (emotion wise) only 1 got misclassified.
 3. Our Model can succesfully detect face and predict emotion on live video feed as well as on an image.
 
 
