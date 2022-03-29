@@ -1,32 +1,4 @@
-# Importing required libraries, obviously
-import logging
-import logging.handlers
-import threading
-from pathlib import Path
-import streamlit as st
-import cv2
-import numpy as np
-from keras.models import load_model
-from keras.preprocessing.image import img_to_array
-from streamlit_webrtc import VideoTransformerBase, webrtc_streamer
-import av
-from typing import Union
 
-
-
-
-
-
-try:
-    from typing import Literal
-except ImportError:
-    from typing_extensions import Literal  # type: ignore
-    
-
-
-# Loading pre-trained parameters for the cascade classifier
-try:
-    face_classifier = cv2.CascadeClassifier('# Importing required libraries, obviously
 import logging
 import logging.handlers
 import threading
