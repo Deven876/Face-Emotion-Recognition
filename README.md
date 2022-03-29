@@ -22,7 +22,7 @@ which can be analysed using deep learning algorithms. Deep learning backed syste
 the surveillance issue, but it also removes the human bias from the system, and all information is no
 longer in the teacher’s brain rather translated in numbers that can be analysed and tracked.
 
-https://github.com/Deven876/Face-Emotion-Recognition/blob/main/fer.jpeg
+!(https://github.com/Deven876/Face-Emotion-Recognition/blob/main/fer.jpeg)
 
 ## 1. Problem Statement
 
