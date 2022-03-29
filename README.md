@@ -88,14 +88,16 @@ https://github.com/Deven876/Face-Emotion-Recognition/blob/main/sample%20video.mp
 
 
 
-![image](https://user-images.githubusercontent.com/92842078/160650794-4f9b870a-b240-46f8-abdf-074db0e81741.png)
+![image](https://user-images.githubusercontent.com/92842078/160662251-89c57a70-6917-4293-b7c7-e55f3e10bb3e.png)
 
 
 
 
 
 
-![image](https://user-images.githubusercontent.com/92842078/160650902-a0642277-58d8-4587-87b2-beb828535e18.png)
+
+![image](https://user-images.githubusercontent.com/92842078/160662304-d6fff536-8721-4511-a0cc-e765e264e25a.png)
+
 
 
 
