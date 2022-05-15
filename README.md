@@ -25,10 +25,34 @@ longer in the teacher’s brain rather translated in numbers that can be analyse
 ![image](https://user-images.githubusercontent.com/92842078/160650577-23052d5a-778d-453d-8ed1-8f63d263b19f.png)
 
 
-## 1. Problem Statement
+## 📋 1. Problem Statement
 
 We will solve the above-mentioned challenge by applying deep learning algorithms to live video data.
 The solution to this problem is by **recognizing facial emotions**.
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## :floppy_disk: Project Files Description
+
+This Project includes 2 executable files, 2 text files as well as a directory as follows:
+### Executable Files:
+1. Live_class_Monitoring_System(Face_Emotion_Recognition).ipynb- Includes all functions required for running recognition functions.
+2. app.py - It contains streamlit deployment codes.
+
+### Output Files:
+
+1. model.json</b> - CNN model trained file.
+2. requirements.txt- Contains information about packages and versions need my project.
+3. runtime.txt- Contains python version used for project training.
+
+
+### Source Directories:
+
+  FER2013</b> -Contains train and test data 
+  
+  
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 
 
 ## 2. Face Emotion Recognition Model
@@ -44,7 +68,7 @@ Face-detection algorithms focus on the detection of frontal human faces. It is a
 
 Object Detection using Haar feature-based cascade classifiers is an effective object detection method proposed by Paul Viola and Michael Jones in their paper, "Rapid Object Detection using a Boosted Cascade of Simple Features" in 2001. It is a machine learning based approach where a cascade function is trained from a lot of positive and negative images. It is then used to detect objects in other images. Here it will train with faces. Initially, the algorithm needs a lot of positive images (images of faces) and negative images (images without faces) to train the classifier.
 
-## 2.2 Facial Feature Detection and Emotion Classification.
+## 2.2 :book: Facial Feature Detection and Emotion Classification.
 
 The Haar Casscade detects face and those faces are then cropped and convert to gray images. These  gray images further get converted into iamge aaray for processing. Out DNN is made up of 4 CNN blocks and 5 Dense block with dropout probabilities of 0.5. Each block has Batch Normalization layer, CNN layer (3x3) kernel, activation Function layer (ReLU) and max pooling (2x2). Dataset which is used to train this DNN is FER 2013 dataset. It has images of all 7 class of emotion. 
 
@@ -63,10 +87,14 @@ Hyper-parameter that were used are epochs = 100,batch_size = 64 and learning_rat
 
 ![Confusion Matrix](https://user-images.githubusercontent.com/92842078/160648272-db6bf451-b6eb-4c12-be10-c58e8d961b42.png)
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 # 3. Conclusions 
 1. We trained the neural network and we achieved the highest validation accuracy of 61%.
 2. Pre Trained Model gave good accuracy for emotion around 80%. Can not say the same for other features.(As you can see, the image we used shows scared emotion where as emotion predicted was surprise. . Out of 5, 4 results were good (emotion wise) only 1 got misclassified.
 3. Our Model can succesfully detect face and predict emotion on live video feed as well as on an image.
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
 To access weblink please click on this link(streamlit share) :https://share.streamlit.io/deven876/face-emotion-recognition/main/app.py
@@ -104,6 +132,30 @@ https://github.com/Deven876/Face-Emotion-Recognition/blob/main/sample%20video.mp
 
 **Live face and emotion detection can be easily done with the help of our model.**
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<!-- CREDITS -->
+<h2 id="credits"> :scroll: Credits</h2>
+
+< Devendra Bhangale > | Avid Learner | Data Scientist | Machine Learning Engineer | Deep Learning enthusiast
+
+<p> <i> Contact me for Data Science Project Collaborations</i></p>
+
+
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/devendra-bhangale-b326a1169/)
+[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Deven876)
+[![Medium Badge](https://img.shields.io/badge/Medium-1DA1F2?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@devabhangale)
+[![Resume Badge](https://img.shields.io/badge/resume-0077B5?style=for-the-badge&logo=resume&logoColor=white)]()
+
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+# :books: References:
+1. Available: https://www.coursera.org/projects/facial-expression-recognition-keras
+2. Available: https://katoch.medium.com/emotion-recognition-using-keras-ba66de7bd3a
+3. Available: https://paperswithcode.com/task/facial-expression-recognition
+4. Available: https://towardsdatascience.com/face-detection-recognition-and-emotion-detection-in-8-lines-of-code-b2ce32d4d5de
+5. Available: https://github.com/topics/facial-expression-recognition
 
 
 
